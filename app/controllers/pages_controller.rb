@@ -13,4 +13,7 @@ class PagesController < ApplicationController
 
   def sponsors
   end
+
+  def members
+  end
 end
