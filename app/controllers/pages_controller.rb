@@ -10,4 +10,7 @@ class PagesController < ApplicationController
 
   def resources
   end
+
+  def sponsors
+  end
 end

@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
 $body-bg: #ecf0f1;
 $navbar-inverse-bg: #330066;
 $navbar-inverse-link-color: #ffffff;
@@ -5,5 +7,19 @@ $btn-default-bg: #330066;
 $btn-default-color: #ffffff;
 $jumbotron-heading-color: #330066;
 $jumbotron-bg: #ffffff;
+$btn-primary-bg: #523D66;
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-family: 'Droid Serif';
+	font-size: 24px;
+}
+
+.title {
+	font-family: 'Droid Serif';
+}
