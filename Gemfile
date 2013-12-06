@@ -25,6 +25,7 @@ gem 'jbuilder', '~> 1.2'
 # Twitter Bootstrap 
 gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: '3'
 
+#Devise for login
 gem 'devise', '~> 3.2.0'
 
 group :development, :test do

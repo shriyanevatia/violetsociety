@@ -5,8 +5,13 @@
 	<p>The Violet Society is a startup sisterhood for future founders. We will begin our meetings for undergraduate women in Boston and Cambridge this January (2014). </p>
 
 	<div class="center">
-		<p><%= link_to "Sign Up", "#", class: "btn btn-default btn-lg" %></p>
-		<p><%= link_to "Member Log In", "#", class: "btn btn-primary btn-lg" %></p>
+		<% if user_signed_in? %>
+        	Welcome!
+     	<% else %>
+			<p>
+				<%= link_to "Sign Up", new_user_registration_path, class: "btn btn-default btn-lg" %>
+			</p>
+		<% end %>
 	</div>
 	<br>
 	<br>
