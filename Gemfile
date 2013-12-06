@@ -25,6 +25,8 @@ gem 'jbuilder', '~> 1.2'
 # Twitter Bootstrap 
 gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: '3'
 
+gem 'devise', '~> 3.2.0'
+
 group :development, :test do
 	# Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
