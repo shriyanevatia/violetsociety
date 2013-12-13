@@ -1,6 +1,5 @@
 Pinteresting::Application.routes.draw do
   root 'pages#home'
-  get 'about' => 'pages#about' #creates about_path
   get 'events' => 'pages#events' #creates events_path
   get 'resources' => 'pages#resources' #creates resources_path
   get 'sponsors' => 'pages#sponsors' #creates sponsors_path
