@@ -12,6 +12,12 @@
     .navbar-brand {
       font-family: "Droid Serif";
     }
+    h2 {
+        font-family: "Droid Serif";
+    }
+    .container {
+    	display: flex;
+    }
   </style>
 </head>
 
@@ -32,119 +38,131 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     
       <ul class="nav navbar-nav navbar-right">
+      	<li><a href="index.html">Home</a></li>
         <li><a href="events.html">Events</a></li>
         <li><a href="members.html">Members</a></li>
         <li><a href="resources.html">Resources</a></li>
         <li><a href="sponsors.html">Sponsors</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
-  </div><!-- container -->
-</nav>
+  </nav>
 	<div class="container">
 		<div class="jumbotron">
 			<div class="center">
 				<h1>Resources</h1>
 			</div>
-		<h3>Tech Startup Resources</h3>
-			<h4>University Resources</h4>
-				<ul>
-					<li><a href="http://startlabs.org/">MIT StartLabs</a></li>
-					<li><a href="http://i-lab.harvard.edu/">Harvard Innovation Lab</a></li>
-					<li><a href="http://www.hackharvard.org/">Hack Harvard</a></li>
-					<li><a href="http://gordon.tufts.edu/programs/tufts-entrepreneurs-society">Tufts Entrepreneurs Society</a></li>
-					<li><a href="http://acm.ccs.neu.edu/">Northeastern ACM</a></li>
-				</ul>
-			<h4>Boston Resources</h4>
-				<ul>
-					<li><a href="http://greenhornconnect.com/">Greenhorn Connect</a></li>
-					<li><a href="http://bostinno.streetwise.co/">BostInno Magazine</a></li>
-					<li><a href="http://startwithstartups.com/">Start With Startups</a></li>
-					<li><a href="http://roughdraft.vc/">Rough Draft Ventures</a></li>
-					<li><a href="http://www.dormroomfund.com/boston">Dorm Room Fund Boston</a></li>
-				</ul>
-			<h4>Online Magazines</h4>
-				<ul>
-					<li><a href="http://techcrunch.com/">TechCrunch</a></li>
-					<li><a href="http://gizmodo.com/">Gizmodo</a></li>
-					<li><a href="http://www.theverge.com/">The Verge</a></li>
-					<li><a href="http://www.smashingmagazine.com/">Smashing Magazine</a></li>
-					<li><a href="http://alistapart.com/">A List Apart</a></li>
-					<li><a href="http://www.businessinsider.com/">Business Insider</a></li>
-				</ul>
-			<h4>Blogs</h4>
-				<ul>
-					<li><a href="http://paulgraham.com/articles.html">Paul Graham</a></li>
-					<li><a href="http://sethgodin.typepad.com/">Seth Godin</a></li>
-					<li><a href="http://www.fourhourworkweek.com/blog/">Tim Ferriss</a></li>
-					<li><a href="http://calnewport.com/blog/">Cal Newport</a></li>
-				</ul>
-			<h4>Online Tech Communities</h4>
-				<ul>
-					<li><a href="http://news.ycombinator.com/">Hacker News</a></li>
-					<li><a href="http://www.reddit.com/">Reddit</a></li>
-					<li><a href="http://www.quora.com/">Quora</a></li>
-					<li><a href="https://medium.com/">Medium</a></li>
-					<li><a href="https://svbtle.com/">Svbtle</a></li>
-				</ul>
 
-		<h3>Online Education</h3>
-			<h4>Programming</h4>
-				<ul>
-					<li><a href="http://www.codecademy.com/">Codecademy</a></li>
-					<li><a href="https://dash.generalassemb.ly/projects">General Assembly Dash</a></li>
-					<li><a href="https://www.khanacademy.org/cs">Khan Academy Computer Programming</a></li>
-					<li><a href="https://www.codeschool.com/">Code School</a></li>
-					<li><a href="https://onemonthrails.com/">One Month Rails</a></li>
-					<li><a href="http://www.udacity.com/">Udacity</a></li>
-					<li><a href="http://teamtreehouse.com/">Treehouse</a></li>
-					<li><a href="http://www.bentobox.io/">Bentobox</a></li>
-				</ul>
-			<h4>Design</h4>
-				<ul>
-					<li><a href="http://method.ac/">Method of Action</a></li>
-					<li><a href="https://hackdesign.org/">Hack Design</a></li>
-				</ul>
-			<h4>Business</h4>
-				<ul>
-					<li><a href="http://blog.coursera.org/post/60889088289/the-wharton-foundation-series">Wharton Foundation Series on Coursera</a></li>
-					<li><a href="https://www.coursera.org/course/startup">Stanford Startup Engineering</a></li>
-					<li><a href="https://www.udacity.com/course/ep245">How to Build a Startup on Udacity</a></li>
-				</ul>
-			<h4>Marketing and Sales</h4>
-				<ul>
-					<li><a href="http://www.amazon.com/Growth-Hacker-Marketing-Advertising-ebook/dp/B00BPDR3JM">Ryan Holiday Growth Hacker Marketing</a></li>
-					<li><a href="http://timothy.userapp.io/post/66678739796/100-growth-hacks-in-100-days-day-1">100 Growth Hacks in 100 Days</a></li>
-				</ul>
-			<h4>Career Development</h4>
-				<ul>
-					<li><a href="http://www.thedailymuse.com/">The Daily Muse</a></li>
-					<li><a href="http://www.levo.com/">Levo League</a></li>
-					<li><a href="http://lifehacker.com/">Lifehacker</a></li>
-				</ul>
+			<div class="col-md-4">
+				<h2>Tech Startup Resources</h2>
+					<h3>University Resources</h3>
+						<ul>
+							<li><a href="http://startlabs.org/">MIT StartLabs</a></li>
+							<li><a href="http://i-lab.harvard.edu/">Harvard Innovation Lab</a></li>
+							<li><a href="http://www.hackharvard.org/">Hack Harvard</a></li>
+							<li><a href="http://gordon.tufts.edu/programs/tufts-entrepreneurs-society">Tufts Entrepreneurs Society</a></li>
+							<li><a href="http://acm.ccs.neu.edu/">Northeastern ACM</a></li>
+						</ul>
+					<h3>Boston Resources</h3>
+						<ul>
+							<li><a href="http://greenhornconnect.com/">Greenhorn Connect</a></li>
+							<li><a href="http://bostinno.streetwise.co/">BostInno Magazine</a></li>
+							<li><a href="http://startwithstartups.com/">Start With Startups</a></li>
+							<li><a href="http://roughdraft.vc/">Rough Draft Ventures</a></li>
+							<li><a href="http://www.dormroomfund.com/boston">Dorm Room Fund Boston</a></li>
+						</ul>
+					<h3>Online Magazines</h3>
+						<ul>
+							<li><a href="http://techcrunch.com/">TechCrunch</a></li>
+							<li><a href="http://gizmodo.com/">Gizmodo</a></li>
+							<li><a href="http://www.theverge.com/">The Verge</a></li>
+							<li><a href="http://www.smashingmagazine.com/">Smashing Magazine</a></li>
+							<li><a href="http://alistapart.com/">A List Apart</a></li>
+							<li><a href="http://www.businessinsider.com/">Business Insider</a></li>
+						</ul>
+					<h3>Blogs</h3>
+						<ul>
+							<li><a href="http://paulgraham.com/articles.html">Paul Graham</a></li>
+							<li><a href="http://sethgodin.typepad.com/">Seth Godin</a></li>
+							<li><a href="http://www.fourhourworkweek.com/blog/">Tim Ferriss</a></li>
+							<li><a href="http://calnewport.com/blog/">Cal Newport</a></li>
+						</ul>
+					<h3>Online Tech Communities</h3>
+						<ul>
+							<li><a href="http://news.ycombinator.com/">Hacker News</a></li>
+							<li><a href="http://www.reddit.com/">Reddit</a></li>
+							<li><a href="http://www.quora.com/">Quora</a></li>
+							<li><a href="https://medium.com/">Medium</a></li>
+							<li><a href="https://svbtle.com/">Svbtle</a></li>
+						</ul>
+			</div>
 
-		<h3>In-Person Education</h3>
-			<h4>Courses and Events</h4>
-				<ul>
-					<li><a href="https://generalassemb.ly/education?where=boston">General Assembly</a></li>
-					<li><a href="http://www.meetup.com/wcc-boston/?trax_also_in_algorithm2=combo&traxDebug_also_in_algorithm2_picked=combo">Women's Coding Collective</a></li>
-					<li><a href="http://intelligent.ly/">Intelligent.ly</a></li>
-					<li><a href="http://www.meetup.com/">Meetup</a></li>
-					<li><a href="http://www.eventbrite.com/">Eventbrite</a></li>
-				</ul>
-			<h4>Programming Bootcamps</h4>
-				<ul>
-					<li><a href="http://devbootcamp.com/">Dev Bootcamp</a></li>
-					<li><a href="http://startupinstitute.com/">Startup Institute</a></li>
-					<li><a href="http://www.hackbrightacademy.com/">Hackbright Academy</a></li>
-					<li><a href="https://www.hackerschool.com/">Hacker School</a></li>
-					<li><a href="http://www.hackreactor.com/">Hack Reactor</a></li>
-				</ul>
-			<h4>Hackathons</h4>
-				<ul>
-					<li><a href="http://startupweekend.org/">Startup Weekend</a></li>
-					<li><a href="https://www.hackerleague.org/">Hacker League</a></li>
-					<li><a href="http://mlh.io/">Major League Hacking</a></li>
-				</ul>
+			<div class="col-md-4">
+				<h2>Online Education</h2>
+					<h3>Programming</h3>
+						<ul>
+							<li><a href="http://www.codecademy.com/">Codecademy</a></li>
+							<li><a href="https://dash.generalassemb.ly/projects">General Assembly Dash</a></li>
+							<li><a href="https://www.khanacademy.org/cs">Khan Academy Computer Programming</a></li>
+							<li><a href="https://www.codeschool.com/">Code School</a></li>
+							<li><a href="https://onemonthrails.com/">One Month Rails</a></li>
+							<li><a href="http://www.udacity.com/">Udacity</a></li>
+							<li><a href="http://teamtreehouse.com/">Treehouse</a></li>
+							<li><a href="http://www.bentobox.io/">Bentobox</a></li>
+						</ul>
+					<h3>Design</h3>
+						<ul>
+							<li><a href="http://method.ac/">Method of Action</a></li>
+							<li><a href="https://hackdesign.org/">Hack Design</a></li>
+						</ul>
+					<h3>Business</h3>
+						<ul>
+							<li><a href="http://blog.coursera.org/post/60889088289/the-wharton-foundation-series">Wharton Foundation Series on Coursera</a></li>
+							<li><a href="https://www.coursera.org/course/startup">Stanford Startup Engineering</a></li>
+							<li><a href="https://www.udacity.com/course/ep245">How to Build a Startup on Udacity</a></li>
+						</ul>
+					<h3>Marketing and Sales</h3>
+						<ul>
+							<li><a href="http://www.amazon.com/Growth-Hacker-Marketing-Advertising-ebook/dp/B00BPDR3JM">Ryan Holiday Growth Hacker Marketing</a></li>
+							<li><a href="http://timothy.userapp.io/post/66678739796/100-growth-hacks-in-100-days-day-1">100 Growth Hacks in 100 Days</a></li>
+						</ul>
+					<h3>Career Development</h3>
+						<ul>
+							<li><a href="http://www.thedailymuse.com/">The Daily Muse</a></li>
+							<li><a href="http://www.levo.com/">Levo League</a></li>
+							<li><a href="http://lifehacker.com/">Lifehacker</a></li>
+						</ul>
+			</div>
+
+			<div class="col-md-4">
+				<h2>In-Person Education</h2>
+					<h3>Courses and Events</h3>
+						<ul>
+							<li><a href="https://generalassemb.ly/education?where=boston">General Assembly</a></li>
+							<li><a href="http://www.meetup.com/wcc-boston/?trax_also_in_algorithm2=combo&traxDebug_also_in_algorithm2_picked=combo">Women's Coding Collective</a></li>
+							<li><a href="http://intelligent.ly/">Intelligent.ly</a></li>
+							<li><a href="http://www.meetup.com/">Meetup</a></li>
+							<li><a href="http://www.eventbrite.com/">Eventbrite</a></li>
+						</ul>
+					<h3>Programming Bootcamps</h3>
+						<ul>
+							<li><a href="http://devbootcamp.com/">Dev Bootcamp</a></li>
+							<li><a href="http://startupinstitute.com/">Startup Institute</a></li>
+							<li><a href="http://www.hackbrightacademy.com/">Hackbright Academy</a></li>
+							<li><a href="https://www.hackerschool.com/">Hacker School</a></li>
+							<li><a href="http://www.hackreactor.com/">Hack Reactor</a></li>
+						</ul>
+					<h3>Hackathons</h3>
+						<ul>
+							<li><a href="http://startupweekend.org/">Startup Weekend</a></li>
+							<li><a href="https://www.hackerleague.org/">Hacker League</a></li>
+							<li><a href="http://mlh.io/">Major League Hacking</a></li>
+							<li><a href="http://www.angelhack.com/">AngelHack</a></li>
+						</ul>
+					<br>
+					<br>
+					<br>
+					<p>Have a resource you think should be added to this list? Email us at <a href="thevioletsociety@gmail.com">thevioletsociety@gmail.com</a></p>
+			</div>
 		</div>
 	</div>
 
